@@ -1,0 +1,14 @@
+{
+  "extends": "@hapi/eslint-config-hapi",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
+  "rules": {
+    "hapi/hapi-scope-start": 0,
+    "indent": ["error", 4],
+    "hapi/hapi-capitalize-modules": 0,
+    "hapi/no-arrowception": 0
+  }
+
+}
